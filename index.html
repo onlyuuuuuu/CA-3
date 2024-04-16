@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <a href="index.html">FOODHOLICS</a>
+        </div>
+    </section>
+    <section class="search-section">
+        <div class="container">
+            <div class="search">
+                <input type="text" id="foodInput" placeholder="Enter the food name">
+                <button onclick="handleSearch()"><img src="asset/search.png"></button>
+            </div>
+        </div>
+    </section>
+    <section class="random-food-section">
+        <div class="container-random">
+            <div class="random-food" id="randomFood">
+            </div>
+        </div>
+    </section>
+    <section class="search-results">
+            <div class="search-results-content" id="searchResults">
+        </div>
+    </section>
+    <script src="index.js"></script>    
+</body>
+</html>

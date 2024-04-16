@@ -1,0 +1,97 @@
+body{
+    background-image: url('asset/bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header a {
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-section {
+    padding: 20px 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#foodInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+button img {
+    width: 30px;
+    height: 30px;
+}
+
+.random-food-section {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.random-food {
+    max-width: 500px;
+    text-align: center;
+}
+
+.random-food img {
+    border-radius: 10%;
+    max-width: 50%;
+    height: auto;
+}
+
+.random-food h3 {
+    margin-top: 10px;
+}
+.search-results {
+    padding: 20px 0;
+}
+
+.search-results-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.result-item {
+    width: 20%; 
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-item img {
+    border-radius:10%;
+    max-width: 100%;
+    height: auto;
+}
+
+.result-item h3 {
+    margin-top: 10px;
+}
